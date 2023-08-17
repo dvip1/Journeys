@@ -12,7 +12,7 @@ interface CardProps {
   };
 }
 
-function Card({ card }: CardProps) {
+function Card({ card }: CardProps) {  
   return (
     <div className="bento-grid-item my-4">
       <Link

@@ -24,7 +24,7 @@ export function Hero() {
                 {/* Item 2 */}
                 <div className="md:col-span-1 md:order-2 order-1 flex justify-center items-center md:block">
                     <div className="p-4">
-                        <img src="./src/assets/Journeys.svg" alt="" className="w-full xl:w-10/12" />
+                        <img src="/Journeys.svg" alt="" className="w-full xl:w-10/12" />
                     </div>
                 </div>
 
