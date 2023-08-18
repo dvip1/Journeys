@@ -20,7 +20,7 @@ export default function Articles() {
           <img
             src={article.img}
             alt={article.title}
-            className="w-full h-96 object-cover rounded-lg shadow-lg"
+            className="w-full h-96 object-cover lg:rounded-lg shadow-lg"
           />
           <h1 className="text-3xl font-bold mt-5">{article.title}</h1>
           <p className="text-gray-600 mt-2">{article.info}</p>
