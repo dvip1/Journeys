@@ -7,8 +7,18 @@ module.exports = {
     'plugin:react-hooks/recommended',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
-  parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh'],
+  parser: "@babel/eslint-parser",
+  plugins: [
+    'react-refresh',
+    "prismjs",
+    {
+      languages: ["javascript", "css", "markup"],
+      plugins: ["line-numbers"],
+      theme: "okaidia",
+      css: true,
+    },
+
+  ],
   rules: {
     'react-refresh/only-export-components': [
       'warn',
