@@ -22,7 +22,7 @@ export let CardData: CardType[] = [
             { id: 1, component: 'text', text: 'Today I want to share my experience with React.' },
             { id: 2, component: 'code', text: 'function helloWorld(){return "Hello World"}' },
             {
-                id: 3, component: "paragraph", text: " Though my own family did not make miso at home, it was indispensable to us nonetheless, as it was (and still is) in all Japanese kitchens. Misoshiru, or miso soup, is served almost every day—either with rice and pickled vegetables as a complete (if frugal) meal, or on its own as the standard breakfast. I use miso as a base for all kinds of sauces and dressings, and like many people, I believe it to be essential when braising or grilling fish, especially strong-flavored mackerel. And I wouldn't cook beef without it.     "   }
+                id: 3, component: "paragraph", text: "Though my own family did not make miso at home, it was indispensable to us nonetheless, as it was (and still is) in all Japanese kitchens. Misoshiru, or miso soup, is served almost every day—either with rice and pickled vegetables as a complete (if frugal) meal, or on its own as the standard breakfast. I use miso as a base for all kinds of sauces and dressings, and like many people, I believe it to be essential when braising or grilling fish, especially strong-flavored mackerel. And I wouldn't cook beef without it.     "   }
             
         ]
 
