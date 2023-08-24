@@ -70,13 +70,17 @@ export const GlobalStyles = createGlobalStyle`
     width: 100%;
     transition: transform 0.5s;
   }
-  
-  
-
   .info{
     font-family: 'Inter', sans-serif;
   }
 }
-
+  .dropCap{
+    float: left;
+    font-size: 4rem;
+    line-height: 1;
+    padding: 0.2rem 0.1rem 0 0;
+    margin: 0;
+    font-weight: 700;
+  }
 
 `;
