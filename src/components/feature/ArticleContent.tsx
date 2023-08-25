@@ -3,7 +3,7 @@ import { CardType } from "../../data/cardData";
 import CodeComponent from "./CodeComponent";
 import ParagraphComponent from "./ParagraphComponent";
 import TextComponent from "./TextComponent";
-
+/* hello */
 interface ArticleContentProps {
   article: CardType;
 }
