@@ -6,7 +6,7 @@ interface ArticleHeaderProps {
 
 export default function ArticleHeader({ article }: ArticleHeaderProps) {
     return (
-        <div className="flex flex-col md:flex-row md:items-center">
+        <div className="flex flex-col md:flex-row md:items-center text-center">
             <img
                 src={article.img}
                 alt={article.title}

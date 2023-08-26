@@ -2,7 +2,6 @@ import { GlobalStyles } from "../styles/homeStyle";
 import { Hero } from "../components/feature/homeFeatures";
 import Cards from "../components/feature/cards";
 
-
 export default function Home() {
     return (
         <section className="">
