@@ -19,8 +19,8 @@ export default function Articles() {
     <div className="mx-auto sm:mt-10 container">
       <div className="grid grid-cols-1  gap-10">
         <div className="md:col-span-2">
-          <ArticleHeader article={article} />
-          <ArticleContent article={article} />
+          <ArticleHeader article={article}/>
+          <ArticleContent article={article}  />
         </div>
       </div>
     </div>

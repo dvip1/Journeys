@@ -1,11 +1,12 @@
 import { styled } from "styled-components";
 const DropCap = styled.span`
   font-size: 4rem;
-  font-weight: 600;
+  font-weight: 500;
   float: left;
   line-height: 1;
   margin-right: 0.1em;
   text-transform: uppercase;
+  color: #000000;
 `;
 function Paragraph(props: any) {
   return (
