@@ -72,5 +72,20 @@ export let CardData: CardType[] = [
         ]
 
     },
+    {
+        id: 4,
+        title: "UI/UX Design",
+        info: "I can design beautiful and scalable UI/UX using Figma and Adobe XD",
+        img: "https://lh3.googleusercontent.com/mLGakWFjdX3zGBIhCUWqzjlj3gUXOY8hOed_ISzomlpNmjKWUiqCFyNGGAZFneVaK30v4GUpjn7lyIsI2Z7KPvMKrYkumzBr2nwbVe3BQKRkpam3sA=w960",
+        date: '2021-09-01', tag: 'Technology',
+        content: [
+            {
+                id: 3
+                , component: 'code', text: 'function helloWorld(){return "Hello World",}',
+
+            }
+        ]
+
+    }
 
 ]
